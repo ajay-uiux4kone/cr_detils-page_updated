@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CR-000001 | Review Notifier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./details.css" />
+  </head>
+  <body class="details-page">
+    <div class="page">
+      <header class="app-header">
+        <img class="app-logo" src="./assets/details/kone-logo.svg" alt="KONE" />
+        <p class="app-title">Review Notifier</p>
+        <div class="header-actions">
+          <button class="lang-button" type="button" aria-label="Language: English">
+            <img src="./assets/details/translate.svg" alt="" />
+            <span>EN</span>
+            <img src="./assets/details/chevron-dropdown.svg" alt="" />
+          </button>
+          <div class="avatar-wrap">
+            <img class="avatar avatar-48" src="./assets/details/avatar-vignesh.png" alt="Vignesh" />
+            <span class="badge" aria-label="3 notifications">3</span>
+          </div>
+        </div>
+      </header>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="./index.html">Home</a>
+        <img src="./assets/details/chevron-right.svg" alt="" />
+        <a class="current" href="#" aria-current="page">CR-000001</a>
+      </nav>
+
+      <div class="layout">
+        <aside class="steps-panel" aria-label="Review progress">
+          <ol class="steps">
+            <li class="step done">
+              <span class="step-rail">
+                <span class="step-dot"><img src="./assets/details/check-tick.svg" alt="" /></span>
+                <img class="step-line" src="./assets/details/step-line.svg" alt="" />
+              </span>
+              <span class="step-label">CR Created</span>
+            </li>
+            <li class="step">
+              <span class="step-rail"><span class="step-dot">2</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">CR Moved to Information Team</span>
+            </li>
+            <li class="step">
+              <span class="step-rail"><span class="step-dot">3</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">CR Completed by the Informartion Team</span>
+            </li>
+            <li class="step has-toggle">
+              <span class="step-rail"><span class="step-dot">4</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">SME Approval</span>
+              <span class="toggle" role="switch" aria-checked="mixed" aria-disabled="true" aria-label="SME Approval"><span aria-hidden="true">off</span><i aria-hidden="true"></i><span aria-hidden="true">on</span></span>
+            </li>
+            <li class="step has-toggle">
+              <span class="step-rail"><span class="step-dot">5</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">RA Team Approval</span>
+              <span class="toggle" role="switch" aria-checked="mixed" aria-disabled="true" aria-label="RA Team Approval"><span aria-hidden="true">off</span><i aria-hidden="true"></i><span aria-hidden="true">on</span></span>
+            </li>
+            <li class="step has-toggle">
+              <span class="step-rail"><span class="step-dot">6</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">RA Checking</span>
+              <span class="toggle" role="switch" aria-checked="mixed" aria-disabled="true" aria-label="RA Checking"><span aria-hidden="true">off</span><i aria-hidden="true"></i><span aria-hidden="true">on</span></span>
+            </li>
+            <li class="step has-toggle">
+              <span class="step-rail"><span class="step-dot">7</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">RA Approval</span>
+              <span class="toggle" role="switch" aria-checked="mixed" aria-disabled="true" aria-label="RA Approval"><span aria-hidden="true">off</span><i aria-hidden="true"></i><span aria-hidden="true">on</span></span>
+            </li>
+            <li class="step">
+              <span class="step-rail"><span class="step-dot">8</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">AI Identification Check</span>
+            </li>
+            <li class="step">
+              <span class="step-rail"><span class="step-dot">9</span><img class="step-line" src="./assets/details/step-line.svg" alt="" /></span>
+              <span class="step-label">Checker Approval</span>
+            </li>
+            <li class="step">
+              <span class="step-rail"><span class="step-dot">10</span></span>
+              <span class="step-label">Final Document Version</span>
+            </li>
+          </ol>
+        </aside>
+
+        <main class="content-scroll" tabindex="0" aria-label="Change request details">
+          <h2 class="section-title">Overview</h2>
+
+          <dl class="meta-grid">
+            <div class="meta">
+              <dt>Priority</dt>
+              <dd><span class="dot-low" aria-hidden="true">●</span> Low</dd>
+            </div>
+            <div class="meta"></div>
+            <div class="meta">
+              <dt>Title</dt>
+              <dd>Height_update_test</dd>
+            </div>
+            <div class="meta">
+              <dt>Subject</dt>
+              <dd>Vertical_rise_update</dd>
+            </div>
+            <div class="meta">
+              <dt>Created at</dt>
+              <dd><span>October 29, 2026</span> <span>[ 04:12:24 PM ]</span></dd>
+            </div>
+            <div class="meta">
+              <dt>Last updated</dt>
+              <dd><span>October 29, 2026</span> <span>[ 04:45:14 PM ]</span></dd>
+            </div>
+            <div class="meta wide">
+              <dt>Description</dt>
+              <dd class="description">This is a sample text Looks like you're just getting started. Create your first change request to share your updates and get the review process underway.</dd>
+            </div>
+            <div class="meta wide">
+              <dt>Notify List</dt>
+              <dd class="notify">
+                <ul>
+                  <li>
+                    <img class="avatar avatar-40" src="./assets/details/avatar-sarath.png" alt="" />
+                    <span class="notify-mail">Sarathkumar.soundarapandiyan@kone.com</span>
+                    <span class="notify-actions">
+                      <button type="button" class="icon-btn" aria-label="Email Sarathkumar"><img src="./assets/details/mail.svg" alt="" /></button>
+                      <button type="button" class="icon-btn" aria-label="Call Sarathkumar"><img src="./assets/details/phone-call.svg" alt="" /></button>
+                    </span>
+                  </li>
+                  <li>
+                    <img class="avatar avatar-40" src="./assets/details/avatar-arockiaraj.png" alt="" />
+                    <span class="notify-mail">arockiaraj.s@kone.com</span>
+                    <span class="notify-actions">
+                      <button type="button" class="icon-btn" aria-label="Email Arockiaraj"><img src="./assets/details/mail.svg" alt="" /></button>
+                      <button type="button" class="icon-btn" aria-label="Call Arockiaraj"><img src="./assets/details/phone-call.svg" alt="" /></button>
+                    </span>
+                  </li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+
+          <h2 class="section-title">Status history</h2>
+          <table class="history">
+            <thead>
+              <tr><th>Previous status</th><th>New Status</th><th>Changed by</th><th>Upload Date</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>-----</td>
+                <td>CR Created</td>
+                <td>
+                  <span class="person">
+                    <img class="avatar avatar-36" src="./assets/details/avatar-vignesh.png" alt="" />
+                    <span><strong>Vignesh</strong><small>Vignesh.2@kone.com</small></span>
+                  </span>
+                </td>
+                <td>October 20, 2026</td>
+              </tr>
+              <tr>
+                <td>CR Created</td>
+                <td class="ellipsis">Assigned To information team</td>
+                <td>
+                  <span class="person">
+                    <img class="avatar avatar-36" src="./assets/details/avatar-benjamin.png" alt="" />
+                    <span><strong>Benjamin</strong><small>benjamin.gustaffson.@<br />kone.com</small></span>
+                  </span>
+                </td>
+                <td>October 20, 2026</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 class="section-title">Comments</h2>
+          <section class="comments" aria-label="Comments">
+            <div class="person commenter">
+              <img class="avatar avatar-36" src="./assets/details/avatar-vignesh.png" alt="" />
+              <span><strong>Vignesh</strong><small>Vignesh.2@kone.com</small></span>
+            </div>
+            <form class="chat-input" id="comment-form">
+              <label class="visually-hidden" for="comment">Add a comment</label>
+              <input id="comment" type="text" placeholder="Input text" autocomplete="off" />
+              <button type="submit" class="icon-btn send-btn" aria-label="Send comment"><img src="./assets/details/send.svg" alt="" /></button>
+            </form>
+
+            <div class="thread" id="thread">
+              <div class="bubble-row">
+                <div class="bubble bubble-in">
+                  <div class="bubble-text">
+                    <span>Check our updated document</span>
+                    <button type="button" class="edit-link"><img src="./assets/details/edit-pen.svg" alt="" /><span>Edit</span></button>
+                  </div>
+                  <div class="bubble-author">
+                    <img class="avatar avatar-24" src="./assets/details/avatar-vignesh.png" alt="" />
+                    <span><strong>Vignesh</strong><small>12:52 PM</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="bubble-row end">
+                <div class="bubble bubble-out">
+                  <div class="bubble-text"><span>Got it!</span></div>
+                  <div class="bubble-author">
+                    <img class="avatar avatar-24" src="./assets/details/avatar-arockiaraj.png" alt="" />
+                    <span><strong>Arockiyaraj</strong><small>01:00 PM</small></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <aside class="side-panel">
+          <section class="draft-card" aria-label="Draft link">
+            <div>
+              <p class="label">Draft Link</p>
+              <p class="draft-name">Filename_example.doc</p>
+              <p class="draft-source">Ondrive</p>
+            </div>
+            <a class="link-btn" href="#" aria-label="Open draft link"><img src="./assets/details/link.svg" alt="" /></a>
+          </section>
+
+          <form class="work-card" id="work-form" novalidate>
+            <label for="work-link">Completed work link <span class="req" aria-hidden="true">*</span></label>
+            <div class="input-field" id="work-link-field">
+              <input id="work-link" name="work-link" type="url" placeholder="Pastee your link here" autocomplete="off" required />
+              <button class="input-clear" id="work-link-clear" type="button" aria-label="Clear link" tabindex="-1">
+                <img src="./assets/details/clear-text.svg" alt="" />
+              </button>
+            </div>
+            <button class="button button-primary" type="submit">Send</button>
+          </form>
+        </aside>
+      </div>
+    </div>
+    <script src="./details.js"></script>
+  </body>
+</html>
